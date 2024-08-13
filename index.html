@@ -1,0 +1,123 @@
+<!DOCTYPE html>g
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bongokuhle Dladla- Portfolio</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Bongokuhle</h1>
+            <nav>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section id="home">
+        <div class="home-content">
+            <h2>Welcome to My Portfolio</h2>
+            <div class="home-image-text">
+                <img src="images/mypic.jpg" alt="I am a software developer">
+                <p>I am Bongokuhle Dladla, currently in my final year of studying Computer Science and Information Technology. I am passionate about both front-end and back-end development, and I strive to create efficient and aesthetically pleasing solutions.</p>
+            </div>
+            <p>Explore my projects, learn more about me, and feel free to get in touch!</p>
+            <div class="download-resume">
+                <a href="path/to/your/resume.pdf" download>Download Resume</a>
+            </div>
+        </div>
+    </section>
+
+    <section id="about">
+        <h2>About Me</h2>
+        <div class="about-content">
+            <img src="images/sd pic.jpeg" alt="Animated software developer" class="animated-pic">
+            <div class="about-text">
+                <p>As a budding software developer, I am fascinated by the ever-evolving field of technology. My interests span both front-end and back-end development, allowing me to build comprehensive and functional applications. I enjoy solving complex problems and continuously learning new technologies and methodologies to improve my skills.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="skills">
+        <h2>Skills</h2>
+        <div class="skills-container">
+            <div class="skill">
+                <h3>Front-End Development</h3>
+                <p>HTML, CSS, JavaScript</p>
+            </div>
+            <div class="skill">
+                <h3>Back-End Development</h3>
+                <p>C#, Java, Python, SQL</p>
+            </div>
+            <div class="skill">
+                <h3>Tools & Technologies</h3>
+                <p>Eclipse, Visual Studio, IntelliJ IDEA</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="projects">
+        <h2>Projects</h2>
+        <div class="project">
+            <div class="project-content">
+                <img src="images/SMS.jpg" alt="Project 1 Image" class="project-image">
+                <div class="project-description">
+                    <h3>Student Management System</h3>
+                    <p>The Student Management System is a simple application designed to manage student information. The system will allows administrators to view, add, update, and remove student information.</p>
+                </div>
+            </div>
+            <div class="project-technologies">
+                <p><strong>Technologies:</strong> Java - Swing Framework </p>
+            </div>
+        </div>
+
+
+        <div class="project">
+            <div class="project-content">
+
+                <img src="images/2dolistjpg.jpg" alt="Project 2 Image" class="project-image">
+                <div class="project-description">
+                    <h3>To-Do List Application</h3>
+                    <p>The To-Do List App is a simple application that allows users to add tasks and view completed tasks. The app provides a straightforward way to manage tasks and track progress..</p>
+                </div>
+            </div>
+            <div class="project-Technologies">
+                <p><strong>Technologies:</strong> Java - Swing Framework </p>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact">
+        <h2>Contact</h2>
+        <p>If you have any questions or would like to get in touch, please use the form below or contact me directly:</p>
+        <p>Email: bongokuhlebigger19@gmail.com</p> 
+        <p>Phone: +27646662818</p>
+        <form id="contact-form">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" required></textarea>
+            <button type="submit">Send</button>
+        </form>
+        <div id="response-message"></div>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Bongokuhle Dladla</p>
+    </footer>
+
+    <!-- Include the JavaScript file -->
+    <script src="script.js"></script>
+</body>
+</html>
